@@ -9,3 +9,8 @@ F:\Github\LearnCSharp\LearnCSharp\LearnCSharp\obj\Debug\LearnCSharp.pdb
 F:\Github\CSharp\LearnCSharp\bin\Debug\LearnCSharp.exe.config
 F:\Github\CSharp\LearnCSharp\obj\Debug\LearnCSharp.exe
 F:\Github\CSharp\LearnCSharp\obj\Debug\LearnCSharp.pdb
+F:\Github\CSharp\LearnCSharp\bin\Debug\LearnCSharp.exe
+F:\Github\CSharp\LearnCSharp\bin\Debug\LearnCSharp.pdb
+F:\Github\CSharp\LearnCSharp\bin\Debug\QuadLibrary.dll
+F:\Github\CSharp\LearnCSharp\bin\Debug\QuadLibrary.pdb
+F:\Github\CSharp\LearnCSharp\obj\Debug\LearnCSharp.csprojResolveAssemblyReference.cache
