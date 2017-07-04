@@ -10,9 +10,38 @@ namespace LearnCSharp
     {
         static void Main(string[] args)
         {
+            TestOut();
+            //TestRef();
             //UsePerson();
 
            // UseQuad();
+        }
+
+        private static void TestOut()
+        {
+            int Area;
+            int Cir;
+            Rectangle r = new Rectangle(2, 3);
+            Area = r.GetArea(out Cir);
+            Console.WriteLine("Area:{0},Cir:{1}", Area, Cir);
+        }
+
+        private static void TestRef()
+        {
+            int i = 1;
+            int j = 2;
+            Console.WriteLine("i:{0},j:{1}", i, j);
+            Program.Swap(ref i, ref j);
+            Console.WriteLine("i:{0},j:{1}", i, j);
+        }
+
+
+        private static void Swap(ref int a, ref int b)
+        {
+            int temp;
+            temp = a;
+            a = b;
+            b = temp;
         }
 
         private static void UsePerson()
