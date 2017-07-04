@@ -1,0 +1,4 @@
+F:\Github\LearnCSharp\LearnCSharp\QuadLibrary\bin\Debug\QuadLibrary.dll
+F:\Github\LearnCSharp\LearnCSharp\QuadLibrary\bin\Debug\QuadLibrary.pdb
+F:\Github\LearnCSharp\LearnCSharp\QuadLibrary\obj\Debug\QuadLibrary.dll
+F:\Github\LearnCSharp\LearnCSharp\QuadLibrary\obj\Debug\QuadLibrary.pdb
