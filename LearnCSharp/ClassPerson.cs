@@ -26,12 +26,12 @@ namespace LearnCSharp
         public int Age
         {
             get { return age; }
-            set { this.age = age; }
+            set { this.age = value; }
         }
-        public string  Name
+        public string Name
         {
             get { return name; }
-            set { this.name = name; }
+            set { this.name = value; }
         }
 
     }
