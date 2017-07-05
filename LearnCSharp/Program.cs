@@ -11,13 +11,20 @@ namespace LearnCSharp
         static void Main(string[] args)
         {
 
-          
-            
+           // TestAbstractMethod();
             // Testjicheng();
             //TestOut();
             //TestRef();
             //UsePerson();
            // UseQuad();
+        }
+
+        private static void TestAbstractMethod()
+        {
+            Student2 s2 = new Student2();
+            Person2 p2 = s2;
+            p2.Age = 12;
+            p2.Name = "Tom";
         }
 
         private static void Testjicheng()
