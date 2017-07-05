@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using QuadLibrary;
+using System.Collections;
 namespace LearnCSharp
 {
     class Program
@@ -11,12 +12,35 @@ namespace LearnCSharp
         static void Main(string[] args)
         {
 
-           // TestAbstractMethod();
+
+            //TestArrayListMethod();
+            //TestArrayMethod();
+            // TestAbstractMethod();
             // Testjicheng();
             //TestOut();
             //TestRef();
             //UsePerson();
            // UseQuad();
+        }
+
+        private static void TestArrayListMethod()
+        {
+            ArrayList al = new ArrayList();
+            al.Add(1);
+            al.Add("ss");
+            al.Remove(1);
+            al.ToArray();
+            al.Sort();
+            al.Reverse();
+        }
+
+        private static void TestArrayMethod()
+        {
+            string[] StrArr = new string[2];
+            int[,] IntArr = new int[2, 3];
+            double[][] DoubleArr = new double[2][];
+            DoubleArr[0] = new double[5];
+            DoubleArr[1] = new double[3];
         }
 
         private static void TestAbstractMethod()
