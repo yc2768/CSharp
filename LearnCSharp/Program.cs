@@ -13,8 +13,9 @@ namespace LearnCSharp
         {
 
 
-            //TestQueueMethod();
 
+            //TestStackMethod();
+            //TestQueueMethod();
             //TestArrayListMethod();
             //TestArrayMethod();
             // TestAbstractMethod();
@@ -23,6 +24,15 @@ namespace LearnCSharp
             //TestRef();
             //UsePerson();
            // UseQuad();
+        }
+
+        private static void TestStackMethod()
+        {
+            Stack s = new Stack();
+            s.Push(1);
+            s.Push("a");
+            s.Pop();
+            s.Peek();
         }
 
         private static void TestQueueMethod()
