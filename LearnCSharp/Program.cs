@@ -10,11 +10,20 @@ namespace LearnCSharp
     {
         static void Main(string[] args)
         {
-            TestOut();
+
+            Testjicheng();
+            
+            //TestOut();
             //TestRef();
             //UsePerson();
-
            // UseQuad();
+        }
+
+        private static void Testjicheng()
+        {
+            Student s = new Student(1, 12, "zs");
+            s.ShowPerson1Info();
+            s.ShowStudentInfo();
         }
 
         private static void TestOut()
