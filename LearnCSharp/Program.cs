@@ -13,6 +13,8 @@ namespace LearnCSharp
         {
 
 
+            //TestQueueMethod();
+
             //TestArrayListMethod();
             //TestArrayMethod();
             // TestAbstractMethod();
@@ -21,6 +23,24 @@ namespace LearnCSharp
             //TestRef();
             //UsePerson();
            // UseQuad();
+        }
+
+        private static void TestQueueMethod()
+        {
+            Queue q = new Queue();
+            foreach (int i in new int[4] { 1, 2, 3, 4 })
+            {
+                q.Enqueue(i);
+            }
+            foreach (int i in q)
+            {
+                Console.WriteLine(i);
+            }
+            q.Dequeue();
+            foreach (int i in q)
+            {
+                Console.WriteLine(i);
+            }
         }
 
         private static void TestArrayListMethod()
