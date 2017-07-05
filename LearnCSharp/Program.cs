@@ -11,8 +11,9 @@ namespace LearnCSharp
         static void Main(string[] args)
         {
 
-            Testjicheng();
+          
             
+            // Testjicheng();
             //TestOut();
             //TestRef();
             //UsePerson();
